@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    background-image: url(./pics/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 30%;
+}
+
+header {
+    /* background-color: bisque; */
+    height: 125px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 80px;
+
+}
+
+.main-box {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+.second-box {
+    display: block;
+    text-align: center;
+    margin-top: -40px;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    
+}
+
+.progress {
+    /* background: linear-gradient(to right, skyblue, white); */
+    /* width: 30%; */
+    /* height: 10px; */
+    /* background-color: #f1f1f1;
+    border-style: solid;
+    border: none; */
+    height: 8px;
+    width: 100%;
+    box-shadow: 1px 1px 20px 1px black;
+    line-height: 10px;
+    display: inline-block;
+    max-width: 400px;
+    width: 30%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    border-radius: none;
+}
+.progress .progress-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 70%;
+    background: skyblue;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.percentage {
+    color: white;
+    font-size: 12px;
+}
+
+.third-box {
+    text-align: center;
+    margin-top: 10px;
+}
+button {
+
+
+    text-align: center;
+    border-style: solid;
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+    background-color: skyblue;
+}
+
+.icon {
+    border-color: black;
+    text-align: center;
+    word-spacing: 15px;
+}
+   
+footer {
+    position: sticky;
+    bottom: 0;
+    margin-top: 80vh;
+    text-align: center;
+    color: rgba(211, 211, 211, 0.649);
+    font-size: 10px;
+    line-height: 5px;
+
+}
+hr {
+    width: 85%;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    margin-inline: -3px;
+    border-radius: 50%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 3px;
+
+}
